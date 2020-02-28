@@ -1,0 +1,32 @@
+body{
+    font-size: 16px;
+}
+
+.background-color{
+    background: linear-gradient(to right,#59C173, #a17fe0,#5D26C1 );
+}
+
+
+.txt-clr{
+    color: white;
+    font-family:'Montserrat';
+    font-weight: bold;
+}
+
+.bg-btn-clr{
+    background-color: #59C173;
+    width: 150px;
+}
+
+
+.bg-srch-agn{
+    background-color: white !important;
+    width: 200px;
+}
+
+
+@media only screen and (max-device-width: 768px) {
+    form{
+        display: none !important;
+    }
+}
