@@ -11,18 +11,22 @@
       crossorigin="anonymous"
     />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
 
-    
+  <section class="container-fluid no-margin no-padding">
+
     <nav class="navbar navbar-expand-lg background-color">
     <div class="d-flex flex-grow-1">
         <span class="w-100 d-lg-none d-block">
             <div class="w-100">
                 <button class="navbar-toggler" style="line-height: 1.5 !important; outline: none;" type="button" 
-                data-toggle="collapse" data-target="#myNavbar">
+                data-toggle="collapse" data-target="#myNavbar1">
                         <img class="img-fluid" src="/assets/menu.png" height="25px" width="25px" />  
                 </button>
             </div>
@@ -33,34 +37,28 @@
 
 
 
-        <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar1">
-            <form class="form-inline">
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" style="background-color: white;">
-
-                    <img class="img-fluid" src="/assets/search.png" height="20px" width="20px">
+        <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavb">
+                <div class="form-group has-search" style="margin: 0;">
+                  <span class="fa fa-search form-control-feedback" style="color: #59C173;">
                   </span>
+                  <input type="text" class="form-control" placeholder="Find Professionals & Agencies" style="width: 290px;">
                 </div>
-                <input type="text" class="form-control" placeholder="Search" aria-label="Search" >
-              </div>
-            </form>
             </div>
        
         <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
-            <img src="/assets/upwork.svg"  height="50px" width="150px" alt="logo">
+            <img  src="/assets/upwork.svg"  height="50px" width="150px" alt="logo">
         </a>
 
 
 
-        <span class="w-100 d-lg-none d-block text-right flex-grow-1 navbar-toggler" data-toggle="collapse" data-target="#myNavbar1">
-            <img class="img-fluid" style="margin: 10px 0px;" src="/assets/search.png" height="25px" width="25px" /> 
+        <span class="w-100 d-lg-none d-block text-right flex-grow-1 navbar-toggler" data-toggle="collapse" data-target="#myar1">
+            <img class="img-fluid d-none" style="margin: 10px 0px;" src="/assets/search.png" height="25px" width="25px" /> 
         </span>
     </div>
 
 
 
-    <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar">
+    <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar1">
         <ul class="navbar-nav ml-auto flex-nowrap">
             <li class="nav-item">
                 <a href="#" class="nav-link m-2 menu-item nav-active txt-clr">Home</a>
@@ -72,13 +70,441 @@
                 <a href="#" class="nav-link m-2 menu-item txt-clr">About US</a>
             </li>
             <li class="nav-item d-flex justify-content-center ">
-                <button class="nav-link m-2 menu-item btn bg-btn-clr txt-clr">Post A Job</button>
+                <button class="nav-link m-2 menu-item btn bg-btn-clr txt-btn-clr">Post A Job</button>
             </li>
         </ul>
     </div>
-
-
+    
 </nav>
+</section>
+
+<br>
+<br>
+
+<section class="container">
+
+  <nav class="navbar navbar-expand-lg background-color">
+  <div class="d-flex flex-grow-1">
+      <span class="w-100 d-lg-none d-block">
+          <div class="w-100">
+              <button class="navbar-toggler" style="line-height: 1.5 !important; outline: none;" type="button" 
+              data-toggle="collapse" data-target="#myNavbar2">
+                      <img class="img-fluid" src="/assets/menu.png" height="25px" width="25px" />  
+              </button>
+          </div>
+      </span>
+      <a class="navbar-brand d-none d-lg-inline-block" href="#">
+         <img class="img-fluid" id="img1" src="/assets/upwork.svg" height="50px" width="150px">
+      </a>
+
+
+
+      <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNr1">
+              <div class="form-group has-search" style="margin: 0;">
+                <span class="fa fa-search form-control-feedback" style="color: #59C173;">
+                </span>
+                <input type="text" class="form-control" placeholder="Find Professionals & Agencies" style="width: 290px;">
+              </div>
+          </div>
+     
+      <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+          <img  src="/assets/upwork.svg"  height="50px" width="150px" alt="logo">
+      </a>
+
+
+
+      <span class="w-100 d-lg-none d-block text-right flex-grow-1 navbar-toggler" data-toggle="collapse" data-target="#myNa">
+          <img class="img-fluid d-none" style="margin: 10px 0px;" src="/assets/search.png" height="25px" width="25px" /> 
+      </span>
+  </div>
+
+
+
+  <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar2">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item nav-active txt-clr">Home</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr">Services</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr">About US</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center ">
+              <button class="nav-link m-2 menu-item btn bg-btn-clr txt-btn-clr">Post A Job</button>
+          </li>
+      </ul>
+  </div>
+  
+</nav>
+</section>
+
+
+<br><br>
+<section class="container-fluid no-padding">
+
+  <nav class="navbar navbar-expand-lg ">
+  <div class="d-flex flex-grow-1">
+      <span class="w-100 d-lg-none d-block">
+          <div class="w-100">
+              <button class="navbar-toggler" style="line-height: 1.5 !important; outline: none;" type="button" 
+              data-toggle="collapse" data-target="#myNavbar7">
+                      <img class="img-fluid" src="/assets/menu.png" height="25px" width="25px" />  
+              </button>
+          </div>
+      </span>
+      <a class="navbar-brand d-none d-lg-inline-block" href="#">
+         <img class="img-fluid" id="img1" src="/assets/upwork.svg" height="50px" width="150px">
+      </a>
+
+
+
+      <div class="collapse navbar-collapse flex-grow-1 text-center" id="my1">
+              <div class="form-group has-search" style="margin: 0;">
+                <span class="fa fa-search form-control-feedback" style="color: #59C173;">
+                </span>
+                <input type="text" class="form-control" placeholder="Find Professionals & Agencies" style="width: 290px;">
+              </div>
+          </div>
+     
+      <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+          <img  src="/assets/upwork.svg"  height="50px" width="150px" alt="logo">
+      </a>
+
+
+
+      <span class="w-100 d-lg-none d-block text-right flex-grow-1 navbar-toggler" data-toggle="collapse" data-target="#myNa">
+          <img class="img-fluid d-none" style="margin: 10px 0px;" src="/assets/search.png" height="25px" width="25px" /> 
+      </span>
+  </div>
+
+
+
+  <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar7">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item nav-active txt-clr1">SOLUTIONS</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr1">LOG IN</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr1">SIGN UP</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center ">
+              <button class="nav-link m-2 menu-item btn bg-btn-clr txt-btn-clr">Post A Job</button>
+          </li>
+      </ul>
+  </div>
+  
+</nav>
+</section>
+<br><br>
+<section class="container">
+
+  <nav class="navbar navbar-expand-lg ">
+  <div class="d-flex flex-grow-1">
+      <span class="w-100 d-lg-none d-block">
+          <div class="w-100">
+              <button class="navbar-toggler" style="line-height: 1.5 !important; outline: none;" type="button" 
+              data-toggle="collapse" data-target="#myNavbar8">
+                      <img class="img-fluid" src="/assets/menu.png" height="25px" width="25px" />  
+              </button>
+          </div>
+      </span>
+      <a class="navbar-brand d-none d-lg-inline-block" href="#">
+         <img class="img-fluid" id="img1" src="/assets/upwork.svg" height="50px" width="150px">
+      </a>
+
+
+
+      <div class="collapse navbar-collapse flex-grow-1 text-center" id="my1">
+              <div class="form-group has-search" style="margin: 0;">
+                <span class="fa fa-search form-control-feedback" style="color: #59C173;">
+                </span>
+                <input type="text" class="form-control" placeholder="Find Professionals & Agencies" style="width: 290px;">
+              </div>
+          </div>
+     
+      <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+          <img  src="/assets/upwork.svg"  height="50px" width="150px" alt="logo">
+      </a>
+
+
+
+      <span class="w-100 d-lg-none d-block text-right flex-grow-1 navbar-toggler" data-toggle="collapse" data-target="#myNa">
+          <img class="img-fluid d-none" style="margin: 10px 0px;" src="/assets/search.png" height="25px" width="25px" /> 
+      </span>
+  </div>
+
+
+
+  <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar8">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item nav-active txt-clr1">SOLUTIONS</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr1">LOG IN</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr1">SIGN UP</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center ">
+              <button class="nav-link m-2 menu-item btn bg-btn-clr txt-btn-clr">Post A Job</button>
+          </li>
+      </ul>
+  </div>
+  
+</nav>
+</section>
+<br><br>
+<section class="container-fluid no-padding">
+
+  <nav class="navbar navbar-expand-lg" style="  background: linear-gradient(to right, #ad5389, #3c1053);;">
+  <div class="d-flex flex-grow-1">
+      <span class="w-100 d-lg-none d-block">
+          <div class="w-100">
+              <button class="navbar-toggler" style="line-height: 1.5 !important; outline: none;" type="button" 
+              data-toggle="collapse" data-target="#myNavbar4">
+                      <img class="img-fluid" src="/assets/menu.png" height="25px" width="25px" />  
+              </button>
+          </div>
+      </span>
+      <a class="navbar-brand d-none d-lg-inline-block" href="#">
+         <img class="img-fluid" id="img1" src="/assets/upwork.svg" height="50px" width="150px">
+      </a>
+
+
+
+      <div class="collapse navbar-collapse flex-grow-1 text-center" id="my1">
+              <div class="form-group has-search" style="margin: 0;">
+                <span class="fa fa-search form-control-feedback" style="color: #59C173;">
+                </span>
+                <input type="text" class="form-control" placeholder="Find Professionals & Agencies" style="width: 290px;">
+              </div>
+          </div>
+     
+      <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+          <img  src="/assets/upwork.svg"  height="50px" width="150px" alt="logo">
+      </a>
+
+
+
+      <span class="w-100 d-lg-none d-block text-right flex-grow-1 navbar-toggler" data-toggle="collapse" data-target="#myNa">
+          <img class="img-fluid d-none" style="margin: 10px 0px;" src="/assets/search.png" height="25px" width="25px" /> 
+      </span>
+  </div>
+
+
+
+  <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar4">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item nav-active txt-clr">SOLUTIONS</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr">LOG IN</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr">SIGN UP</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center ">
+              <button class="nav-link m-2 menu-item btn bg-btn-clr txt-btn-clr">Post A Job</button>
+          </li>
+      </ul>
+  </div>
+  
+</nav>
+</section>
+<br><br>
+
+<section class="container">
+
+  <nav class="navbar navbar-expand-lg" style="  background: linear-gradient(to right, #ad5389, #3c1053);;">
+  <div class="d-flex flex-grow-1">
+      <span class="w-100 d-lg-none d-block">
+          <div class="w-100">
+              <button class="navbar-toggler" style="line-height: 1.5 !important; outline: none;" type="button" 
+              data-toggle="collapse" data-target="#myNavbar40">
+                      <img class="img-fluid" src="/assets/menu.png" height="25px" width="25px" />  
+              </button>
+          </div>
+      </span>
+      <a class="navbar-brand d-none d-lg-inline-block" href="#">
+         <img class="img-fluid" id="img1" src="/assets/upwork.svg" height="50px" width="150px">
+      </a>
+
+
+
+      <div class="collapse navbar-collapse flex-grow-1 text-center" id="my1">
+              <div class="form-group has-search" style="margin: 0;">
+                <span class="fa fa-search form-control-feedback" style="color: #59C173;">
+                </span>
+                <input type="text" class="form-control" placeholder="Find Professionals & Agencies" style="width: 290px;">
+              </div>
+          </div>
+     
+      <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+          <img  src="/assets/upwork.svg"  height="50px" width="150px" alt="logo">
+      </a>
+
+
+
+      <span class="w-100 d-lg-none d-block text-right flex-grow-1 navbar-toggler" data-toggle="collapse" data-target="#myNa">
+          <img class="img-fluid d-none" style="margin: 10px 0px;" src="/assets/search.png" height="25px" width="25px" /> 
+      </span>
+  </div>
+
+
+
+  <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar40">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item nav-active txt-clr">SOLUTIONS</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr">LOG IN</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr">SIGN UP</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center ">
+              <button class="nav-link m-2 menu-item btn bg-btn-clr txt-btn-clr">Post A Job</button>
+          </li>
+      </ul>
+  </div>
+  
+</nav>
+</section>
+
+<br><br>
+
+<section class="container-fluid no-padding">
+
+  <nav class="navbar navbar-expand-lg" style="background: linear-gradient(to right, #159957, #155799);">
+  <div class="d-flex flex-grow-1">
+      <span class="w-100 d-lg-none d-block">
+          <div class="w-100">
+              <button class="navbar-toggler" style="line-height: 1.5 !important; outline: none;" type="button" 
+              data-toggle="collapse" data-target="#myNavbar15">
+                      <img class="img-fluid" src="/assets/menu.png" height="25px" width="25px" />  
+              </button>
+          </div>
+      </span>
+      <a class="navbar-brand d-none d-lg-inline-block" href="#">
+         <img class="img-fluid" id="img1" src="/assets/upwork.svg" height="50px" width="150px">
+      </a>
+
+
+
+      <div class="collapse navbar-collapse flex-grow-1 text-center" id="my1">
+              <div class="form-group has-search" style="margin: 0;">
+                <span class="fa fa-search form-control-feedback" style="color: #59C173;">
+                </span>
+                <input type="text" class="form-control" placeholder="Find Professionals & Agencies" style="width: 290px;">
+              </div>
+          </div>
+     
+      <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+          <img  src="/assets/upwork.svg"  height="50px" width="150px" alt="logo">
+      </a>
+
+
+
+      <span class="w-100 d-lg-none d-block text-right flex-grow-1 navbar-toggler" data-toggle="collapse" data-target="#myNa">
+          <img class="img-fluid d-none" style="margin: 10px 0px;" src="/assets/search.png" height="25px" width="25px" /> 
+      </span>
+  </div>
+
+
+
+  <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar15">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item nav-active txt-clr">SOLUTIONS</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr">LOG IN</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr">SIGN UP</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center ">
+              <button class="nav-link m-2 menu-item btn bg-btn-clr txt-btn-clr">Post A Job</button>
+          </li>
+      </ul>
+  </div>
+  
+</nav>
+</section>
+
+<br><br>
+
+<section class="container">
+
+  <nav class="navbar navbar-expand-lg" style="background: linear-gradient(to right, #159957, #155799);">
+  <div class="d-flex flex-grow-1">
+      <span class="w-100 d-lg-none d-block">
+          <div class="w-100">
+              <button class="navbar-toggler" style="line-height: 1.5 !important; outline: none;" type="button" 
+              data-toggle="collapse" data-target="#myNavbar10">
+                      <img class="img-fluid" src="/assets/menu.png" height="25px" width="25px" />  
+              </button>
+          </div>
+      </span>
+      <a class="navbar-brand d-none d-lg-inline-block" href="#">
+         <img class="img-fluid" id="img1" src="/assets/upwork.svg" height="50px" width="150px">
+      </a>
+
+
+
+      <div class="collapse navbar-collapse flex-grow-1 text-center" id="my1">
+              <div class="form-group has-search" style="margin: 0;">
+                <span class="fa fa-search form-control-feedback" style="color: #59C173;">
+                </span>
+                <input type="text" class="form-control" placeholder="Find Professionals & Agencies" style="width: 290px;">
+              </div>
+          </div>
+     
+      <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+          <img  src="/assets/upwork.svg"  height="50px" width="150px" alt="logo">
+      </a>
+
+
+
+      <span class="w-100 d-lg-none d-block text-right flex-grow-1 navbar-toggler" data-toggle="collapse" data-target="#myNa">
+          <img class="img-fluid d-none" style="margin: 10px 0px;" src="/assets/search.png" height="25px" width="25px" /> 
+      </span>
+  </div>
+
+
+
+  <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar10">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item nav-active txt-clr">SOLUTIONS</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr">LOG IN</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item txt-clr">SIGN UP</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center ">
+              <button class="nav-link m-2 menu-item btn bg-btn-clr txt-btn-clr">Post A Job</button>
+          </li>
+      </ul>
+  </div>
+  
+</nav>
+</section>
+
+<br><br>
+
+
+
 
 
     <script
